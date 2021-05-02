@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import MainContent from './components/MainContent'
+import Container from './components/Container'
 import './components/style.css'
 
 function App() {
@@ -10,10 +10,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MainContent />
+      <Container />
       <Footer />
     </div>
   );
 }
-
 export default App;
