@@ -4,7 +4,7 @@ import './style.css'
 function Header(){
     return (
         <nav>
-            <h1>Employee Directory</h1>
+            <h1>Directory of Employees</h1>
         </nav>
     )
 }
